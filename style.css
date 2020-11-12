@@ -65,3 +65,42 @@
 #fair-page #visit-booths {
     color: #D4472A;
 }
+
+#fair-page .vendor-container {
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#fair-page .vendor-container > div {
+    margin-left: 280px;
+    margin-top: -2px;
+}
+#fair-page .vendor-image {
+    float: left;
+    width: 240px;
+}
+#fair-page .vendor-name {
+    font-family: Domine;
+    font-size: 28px;
+}
+#fair-page .vendor-craft {
+    font-size: 20px;
+}
+
+#fair-page #contact {
+    background-color: #F4F4F4;
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#fair-page .footer {
+    background-color: #AFCDB4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+#fair-page .footer a {
+    color: #2C4E31;
+}
