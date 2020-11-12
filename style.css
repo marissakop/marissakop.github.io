@@ -1,0 +1,67 @@
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #AFCDB4;
+}
+
+#landing-page #enter {
+    display: inline-block;
+    width: 75px;
+    border: 0px;
+    margin-top: -50px;
+}
+
+.btn {
+    height: 35px;
+    border-radius: 4px;
+    background-color: #31926F;
+    color: white;
+    transition: background linear .2s;
+}
+.btn:hover {
+    color: white;
+    background-color: #29785B;
+}
+
+#fair-page .header {
+    background-color: #AFCDB4;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+#fair-page .header > img {
+    margin-right: -20px;
+}
+#fair-page .header .left {
+
+}
+#fair-page .header .left img {
+    margin-left: -20px;
+}
+#fair-page .header h1 {
+    color: white;
+    font-size: 3em;
+    font-family: Domine;
+    font-weight: bold;
+}
+#fair-page .header h2 {
+    color: #D4472A;
+    font-size: 2em;
+    font-family: Domine;
+    font-weight: bold;
+}
+#fair-page .header p {
+    color: #212D23;
+}
+
+#fair-page .content {
+    padding: 40px 50px;
+}
+#fair-page #visit-booths {
+    color: #D4472A;
+}
