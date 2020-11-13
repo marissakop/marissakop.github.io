@@ -124,6 +124,9 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+#fair-page #intro-text {
+    font-size: 20px;
+}
 #fair-page #visit-booths {
     color: #D4472A;
     margin-top: 40px;
@@ -131,9 +134,11 @@ body {
 
 #fair-page .vendor-container {
     border-top: 1px solid #D8D8D8;
-    border-bottom: 1px solid #D8D8D8;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+#fair-page .vendor-container:last-child {
+    border-bottom: 1px solid #D8D8D8;
 }
 #fair-page .vendor-container > div {
     margin-left: 280px;
@@ -156,10 +161,12 @@ body {
     margin-bottom: 30px;
 }
 #fair-page .vendor-container a.btn {
+    background-color: #31926f;
     width: 85px;
     height: 36px;
     border: 0;
 }
+#fair-page .vendor-container a.btn:hover, 
 #fair-page .vendor-container a.btn:active,
 #fair-page .vendor-container a.btn:visited {
     background-color: #29785B;
@@ -184,6 +191,7 @@ body {
 }
 #fair-page #contact a {
     color: #2C4E31;
+    font-weight: bold;
 }
 
 #fair-page .footer {
@@ -202,4 +210,5 @@ body {
     display: inline-block;
     margin-top: 15px;
     color: #2C4E31;
+    font-weight: bold;
 }
