@@ -36,9 +36,11 @@ body {
     background-color: #AFCDB4;
     display: flex;
     justify-content: space-between;
-    background-image: url("img/leaves.svg");
+}
+#fair-page .header .container {
+    background-image: url(img/leaves.svg);
     background-repeat: no-repeat;
-    background-position-x: 90%;
+    background-position-x: right;
     background-size: initial;
     background-position-y: center;
 }
@@ -76,6 +78,25 @@ body {
     font-weight: 400;
     line-height: 27px;
     margin-bottom: 40px;
+}
+
+#fair-page #top-border {
+    width: 100%;
+    height: 8px;
+    background-image: url(img/top_border.svg);
+    background-size: initial;
+    background-position-y: -4px;
+    background-repeat-x: repeat;
+}
+
+#fair-page #bottom-border {
+    width: 100%;
+    height: 8px;
+    background-image: url(img/top_border.svg);
+    background-size: initial;
+    background-position-y: -4px;
+    background-repeat-x: repeat;
+    transform: rotate(180deg);
 }
 
 #fair-page .content {
@@ -132,9 +153,12 @@ body {
 
 #fair-page #contact {
     background-color: #F4F4F4;
-    padding: 10px 30px;
+    padding: 10px 25px;
     margin-top: 20px;
     display: inline-block;
+}
+#fair-page #contact img {
+    margin-right: 5px;
 }
 #fair-page #contact a {
     color: #2C4E31;
