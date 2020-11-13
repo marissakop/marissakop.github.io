@@ -217,6 +217,7 @@ body {
 @media (max-width: 576px) { 
     #landing-page #wreath {
         width: 120%;
+        overflow: hidden;
     }
     #landing-page #enter {
         margin-top: 0;
@@ -227,6 +228,10 @@ body {
     }
     #fair-page .header .left {
         text-align: center;
+    }
+    #fair-page .header h1 {
+        font-size: 48px;
+        line-height: initial;
     }
     #fair-page .vendor-container .vendor-image {
         display: block;
