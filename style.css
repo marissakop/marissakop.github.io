@@ -6,7 +6,7 @@ body {
 #landing-page {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     
@@ -15,9 +15,17 @@ body {
 
 #landing-page #enter {
     display: inline-block;
-    width: 75px;
+    width: 125px;
     border: 0px;
     margin-top: -50px;
+}
+
+#landing-page #countdown {
+    font-size: 28px;
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 .btn {
