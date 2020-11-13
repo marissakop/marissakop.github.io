@@ -216,8 +216,7 @@ body {
 
 @media (max-width: 576px) { 
     #landing-page #wreath {
-        width: 120%;
-        overflow: hidden;
+        width: 100%;
     }
     #landing-page #enter {
         margin-top: 0;
