@@ -1,9 +1,9 @@
 const FAIR_START_DATE = 0;//1606626000000;
 const FAIR_END_DATE = 1607317200000;
 
-$(document).ready(showFair);
+$(document).ready(showLanding);
 
-function init() {
+function showLanding() {
     $('#fair-page').hide();
     $('#enter').hide();
     const now = Date.now();
