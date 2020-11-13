@@ -99,6 +99,27 @@ body {
     transform: rotate(180deg);
 }
 
+#fair-page #top-arrow {
+    background-color: #f4f4f4;
+    height: 58px;
+    width: 58px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 6px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    transition: linear .2s;
+}
+#fair-page #top-arrow:hover {
+    background-color: #DBDBDB;
+    text-decoration: none;
+}
+#fair-page #top-arrow p {
+    color: #31926F;
+}
+
 #fair-page .content {
     padding-top: 40px;
     padding-bottom: 40px;

@@ -16,4 +16,14 @@ function init() {
 function showFair() {
     $('#landing-page').hide();
     $('#fair-page').show();
+    $('#top-arrow').hide();
+    $(document).scroll(() => {
+        const scrolled = window.scrollY;
+        const visitY = $('#visit-booths').offset().top;
+        if (scrolled > visitY) {
+            $('#top-arrow').show();
+        } else {
+            $('#top-arrow').hide();
+        }
+    })
 }
