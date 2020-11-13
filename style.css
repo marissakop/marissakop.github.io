@@ -212,3 +212,35 @@ body {
     color: #2C4E31;
     font-weight: bold;
 }
+
+
+@media (max-width: 576px) { 
+    #landing-page #wreath {
+        width: 120%;
+    }
+    #landing-page #enter {
+        margin-top: 0;
+    }
+
+    #fair-page .header .container {
+        background-image: none;
+    }
+    #fair-page .header .left {
+        text-align: center;
+    }
+    #fair-page .vendor-container .vendor-image {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    #fair-page .vendor-container > div {
+        margin: 0;
+        margin-top: 20px;
+    }
+    #fair-page .vendor-container a,
+    #fair-page .vendor-container a.social {
+        display: block;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+ }
