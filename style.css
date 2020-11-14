@@ -13,19 +13,32 @@ body {
     background-color: #AFCDB4;
 }
 
+#landing-page #wreath {
+    margin-top: -50px;
+}
+
+#landing-page #landing-text {
+    font-size: 20px;
+    margin-top: -50px;
+    color: #2C4E31;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #landing-page #enter {
     display: inline-block;
     width: 125px;
     border: 0px;
-    margin-top: -50px;
 }
 
 #landing-page #countdown {
-    font-size: 28px;
-    margin-top: -25px;
+    font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    color: #2C4E31;
 }
 
 .btn {
@@ -225,6 +238,8 @@ body {
 @media (max-width: 576px) { 
     #landing-page #wreath {
         width: 100%;
+        margin-bottom: 40px;
+        margin-top: 0;
     }
     #landing-page #enter {
         margin-top: 0;
