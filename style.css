@@ -169,6 +169,17 @@ body {
     float: left;
     width: 240px;
 }
+#fair-page .vendor-container > div.vendor-image-carousel {
+    float: left;
+    width: 240px;
+    margin-left: 0;
+    position: relative;
+}
+#fair-page .vendor-container > div.vendor-image-carousel img {
+    max-height: 240px;
+    max-width: 240px;
+    object-fit: cover;
+}
 #fair-page .vendor-name {
     font-family: Domine;
     font-size: 28px;
@@ -259,6 +270,17 @@ body {
         display: block;
         float: none;
         width: 100%;
+    }
+    #fair-page .vendor-container > div.vendor-image-carousel {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    #fair-page .vendor-container > div.vendor-image-carousel img {
+        max-width: 100%;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        top: 45%;
     }
     #fair-page .vendor-container > div {
         margin: 0;
