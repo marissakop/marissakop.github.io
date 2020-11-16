@@ -20,6 +20,10 @@ function checkTime() {
         clearInterval(interval);
         return;
     }
+    if (now > FAIR_END_DATE) {
+        $('#countdown').text('The fair has ended, thank you for your interest!');
+        return;
+    }
 
     const total = FAIR_START_DATE - now;
     const seconds = Math.floor( (total/1000) % 60 );
