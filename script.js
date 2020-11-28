@@ -1,7 +1,7 @@
 const FAIR_START_DATE = 1606626000000;
 const FAIR_END_DATE = 1607317200000;
 
-$(document).ready(showLanding);
+$(document).ready(showFair);
 
 let interval;
 function showLanding() {
