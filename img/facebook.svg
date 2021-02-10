@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="24px" height="24px" viewbox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-  <g id="logo--facebook-copy-6">
-    <path d="M17.0025 0L0.9975 0C0.448296 0.00408347 0.00408347 0.448296 0 0.9975L0 17.0025C0.00408347 17.5517 0.448296 17.9959 0.9975 18L9.615 18L9.615 11.04L7.275 11.04L7.275 8.3175L9.615 8.3175L9.615 6.315C9.615 3.99 11.0325 2.7225 13.1175 2.7225C13.815 2.7225 14.5125 2.7225 15.21 2.8275L15.21 5.25L13.7775 5.25C12.645 5.25 12.4275 5.79 12.4275 6.5775L12.4275 8.31L15.1275 8.31L14.775 11.0325L12.4275 11.0325L12.4275 18L17.0025 18C17.5517 17.9959 17.9959 17.5517 18 17.0025L18 0.9975C17.9959 0.448296 17.5517 0.00408347 17.0025 0Z" transform="translate(3 3)" id="Path" fill="#000000" fill-rule="evenodd" stroke="none" />
-    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="_Transparent_Rectangle_" fill="none" fill-rule="evenodd" stroke="none" />
-  </g>
-</svg>
